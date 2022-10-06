@@ -1,0 +1,16 @@
+$primary-color:brown;
+$secondary-color:lightblue;
+
+@mixin flexLayout{
+    display: flex;
+    justify-content:space-between;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}

@@ -1,0 +1,37 @@
+.header{
+    background-color: $primary-color;
+    height: 100vh;
+    .navbar{
+        background-color:$secondary-color;
+        height: 45px;
+        position: fixed;
+        width: 100%;
+        .navbar-items{
+            @include flexLayout;
+            list-style-type: none;
+            .navbar-item{
+                padding: 5px;
+                .nav-link{
+                    text-decoration: none;
+                    color:green;
+                }
+            }
+        }
+    }
+}
+.banner{
+    padding-top: 200px;
+    text-align: center;
+}
+.about-us{
+    height:100vh;
+    padding-top: 200px;
+    background-color: red;
+    text-align: center;
+}
+.contact-us{
+    height:100vh;
+    padding-top: 200px;
+    background-color:green;
+    text-align: center;
+}
